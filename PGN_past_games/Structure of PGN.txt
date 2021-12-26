@@ -1,0 +1,9 @@
+[Date "YYYY-MM-DD"]
+[Time "HH-MM-SS"]
+[Multiplayer "True or False"]
+[Mode "Standard, 960, HandandBrain, or Blind"]
+[White "For multiplayer only"]
+[Black "For multiplyer only"]
+[Result "1/2-1/2"]
+
+Actual PGN: []

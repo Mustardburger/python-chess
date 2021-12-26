@@ -1,0 +1,17 @@
+d4 can be said:
+	- d4
+	- pawn to d4
+Nf3 can be said:
+	- (K)night f3
+	- (K)night to f3
+Qxc2 can be said:
+	- Queen c2
+	- Queen to c2
+	- Queen takes c2
+	- Queen takes on c2
+O-O can be said:
+	- Short castle
+	- King-side castle
+	- Castle (only when at this move long castle is not possible)
+En passant can be said:
+	

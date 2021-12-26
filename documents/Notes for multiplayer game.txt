@@ -1,0 +1,20 @@
+The multiplayer chess game workflow:
+	- The server waits for connections.
+	- The first player connects to the server, waiting for the second player to connect
+	- The second players connects to the server
+	- The server starts a new game between the two players with a specific gameID (so that subsequent players' games do not clash)
+	- The server assigns Black and White randomly to the players
+
+How the game goes:
+	- The player cannot move the pieces from the other player
+	- When one player is to move, the other player cannot send anything to the server. He has to wait the opponent to move before
+	  he makes a move
+	- The message sent between players and the server is only the byte-encoded PGN of the move
+
+In details:
+	- When a player presses a button, he sends a request to the server to start the game
+	- However, the game cannot be started yet, because the other player has not joined. A new game ID is created
+	- The first player can press the button and send the request multiple times, but the request is only registered once
+	- Once the second player joins, the game can start
+	- The game ID is different among different game types
+	
