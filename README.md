@@ -1,1 +1,1 @@
-ECHO is on.
+# Chess game in Python
